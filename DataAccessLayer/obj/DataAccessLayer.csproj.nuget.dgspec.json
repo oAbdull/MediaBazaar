@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\okbaa\\Source\\Repos\\MediaBazaar\\DataAccessLayer\\DataAccessLayer.csproj": {}
+    "C:\\Users\\pc\\Source\\Repos\\MediaBazaarV2\\DataAccessLayer\\DataAccessLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\okbaa\\Source\\Repos\\MediaBazaar\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\Users\\pc\\Source\\Repos\\MediaBazaarV2\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\okbaa\\Source\\Repos\\MediaBazaar\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\Source\\Repos\\MediaBazaarV2\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\okbaa\\Source\\Repos\\MediaBazaar\\DataAccessLayer\\DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\okbaa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\okbaa\\Source\\Repos\\MediaBazaar\\DataAccessLayer\\obj\\",
+        "projectPath": "C:\\Users\\pc\\Source\\Repos\\MediaBazaarV2\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pc\\Source\\Repos\\MediaBazaarV2\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\okbaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

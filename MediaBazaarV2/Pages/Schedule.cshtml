@@ -1,0 +1,35 @@
+﻿@page
+@model WebApp.Pages.ScheduleModel
+@{
+}
+<section id="grid_container">
+    <div></div>
+    <div>
+        <table>
+            <tr>
+                <form method="post">
+                <th>
+
+                    <button class="weekbutton" , asp-page-handler="Previous">Previous Week</button>
+                        @Model.lbselectedWeek
+                    <button class="weekbutton" , asp-page-handler="Next" type="submit">Next Week</button>
+
+                </th>
+                </form>
+            </tr>
+            @foreach (string ws in Model.shiftsOfWeek)
+            {
+                <tr>
+                    <td> @ws</td>
+                </tr>
+            }
+            @if (Model.shiftsOfWeek.Count == 0)
+            {
+                <tr>
+                    <td> you have no assigned shifts this week</td>
+                </tr>
+            }
+        </table>
+    </div>
+    <div></div>
+</section>

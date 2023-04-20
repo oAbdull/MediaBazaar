@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5ZeSOTX2BwOjEJx544oUks34RUD/eYL6jM9O8+1+kd0LWPvvFP+fTHf6T4ZLgTvgJJUT7ngOXVnTs4a5g53cEg==",
+  "dgSpecHash": "eh5+9x+Z51O/2jEw29R62YbkObzcr2FUU+MsWbQMAiZ6ttuKKfcyoolD5Au5cAB3ftyTS1WySOFAG8OlRMsz3Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\okbaa\\Source\\Repos\\MediaBazaar\\DataAccessLayer\\DataAccessLayer.csproj",
+  "projectFilePath": "C:\\Users\\pc\\Source\\Repos\\MediaBazaarV2\\DataAccessLayer\\DataAccessLayer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

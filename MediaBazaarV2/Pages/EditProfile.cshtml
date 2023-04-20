@@ -1,0 +1,57 @@
+﻿@page
+@model WebApp.Pages.EditProfileModel
+@{
+}
+<div class="container w-50 mt-5">
+	<form method="post">
+		<h2> Update Form :</h2>
+		<div class="row">
+
+			<div class="col-lg-8">
+				<div class="card mb-4">
+					<div class="card-body">
+						<div class="col-sm-9">
+							<label asp-for="UpdateForm.Id" class="form-label">ID</label>
+							<input asp-for="UpdateForm.Id" value="@Model.UpdateForm.Id" class="form-control" readonly="readonly">
+							<span asp-validation-for="UpdateForm.Id" class="text-danger"></span>
+						</div>
+						<hr>
+						<div class="col mb-4">
+							<label asp-for="UpdateForm.FirstName" class="form-label">Firstname</label>
+							<input asp-for="UpdateForm.FirstName" value="@Model.UpdateForm.FirstName" class="form-control" placeholder="Enter your first name">
+							<span asp-validation-for="UpdateForm.FirstName" class="text-danger"></span>
+						</div>
+						<div class="col mb-4">
+							<label asp-for="UpdateForm.LastName" class="form-label">Lastname</label>
+							<input asp-for="UpdateForm.LastName" value="@Model.UpdateForm.LastName" class="form-control" placeholder="Enter your last name">
+							<span asp-validation-for="UpdateForm.LastName" class="text-danger"></span>
+						</div>
+						<div class="col mb-4">
+							<label asp-for="UpdateForm.Email" class="form-label">Email</label>
+							<input asp-for="UpdateForm.Email" value="@Model.UpdateForm.Email" class="form-control" placeholder="Enter your email name">
+							<span asp-validation-for="UpdateForm.Email" class="text-danger"></span>
+						</div>
+						<div class="col mb-4">
+							<label asp-for="UpdateForm.Bithday" class="form-label">Birthday</label>
+							<input asp-for="UpdateForm.Bithday" type="text" value="@Model.UpdateForm.Bithday.ToShortDateString()" class="form-control">
+							<span asp-validation-for="UpdateForm.Bithday" class="text-danger"></span>
+						</div>
+						<div class="col mb-4">
+							<label asp-for="UpdateForm.Phone" class="form-label">Phone Number</label>
+							<input asp-for="UpdateForm.Phone" value="@Model.UpdateForm.Phone" class="form-control" placeholder="Enter your Phone">
+							<span asp-validation-for="UpdateForm.Phone" class="text-danger"></span>
+						</div>
+
+					</div>
+
+					<button type="submit" class="btn">Save</button>
+
+
+
+
+
+	</form>
+</div>
+@section Scripts {
+	<partial name="_ValidationScriptsPartial" />
+}
