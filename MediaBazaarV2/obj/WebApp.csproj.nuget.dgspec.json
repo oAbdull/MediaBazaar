@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pc\\Source\\Repos\\MediaBazaarV2\\MediaBazaarV2\\WebApp.csproj": {}
+    "C:\\Users\\jurri\\Desktop\\Gitrepo\\S2CB-GroupProject\\new\\MediaBazaarV2\\WebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pc\\Source\\Repos\\MediaBazaarV2\\MediaBazaarV2\\WebApp.csproj": {
+    "C:\\Users\\jurri\\Desktop\\Gitrepo\\S2CB-GroupProject\\new\\MediaBazaarV2\\WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\Source\\Repos\\MediaBazaarV2\\MediaBazaarV2\\WebApp.csproj",
+        "projectUniqueName": "C:\\Users\\jurri\\Desktop\\Gitrepo\\S2CB-GroupProject\\new\\MediaBazaarV2\\WebApp.csproj",
         "projectName": "WebApp",
-        "projectPath": "C:\\Users\\pc\\Source\\Repos\\MediaBazaarV2\\MediaBazaarV2\\WebApp.csproj",
-        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\Source\\Repos\\MediaBazaarV2\\MediaBazaarV2\\obj\\",
+        "projectPath": "C:\\Users\\jurri\\Desktop\\Gitrepo\\S2CB-GroupProject\\new\\MediaBazaarV2\\WebApp.csproj",
+        "packagesPath": "C:\\Users\\jurri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jurri\\Desktop\\Gitrepo\\S2CB-GroupProject\\new\\MediaBazaarV2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jurri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -63,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
