@@ -10,16 +10,9 @@ namespace BusinessLogic.Interfaces
     {
         int GetLatestDepartmentId(); // used for id generation
         Department GetDepartment(int id);
-        List<Department> GetDepartmentsBySectionId(int sectionId);
-        void CreateDepartment(int sectionId, Department department);
+        List<Department> GetDepartments();
+        void CreateDepartment(Department department);
         void UpdateDepartment(Department department);
         void DeleteDepartment(Department department);
-
-        void AddToDepartment(int sectionId, int departmentId, Employee employee);
-        void AddToDepartment(int sectionId, int departmentId, Product product);
-        void AddToDepartment(int sectionId, int departmentId, Shift shift);
-        void RemoveFromDepartment(Employee employee);
-        void RemoveFromDepartment(Product product);
-        void RemoveFromDepartment(Shift shift);
     }
 }

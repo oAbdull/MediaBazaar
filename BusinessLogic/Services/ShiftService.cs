@@ -19,17 +19,17 @@ namespace BusinessLogic.Services
         {
             return shiftRepo.GetLatestShiftId();
         }
-        public List<Shift> GetShifts(Section section)
+        public List<Shift> GetShifts()
         {
-            return shiftRepo.GetShifts(section.Id);
+            return shiftRepo.GetShifts();
         }
-        public List<Shift> GetShifts(Section section, Department department)
+        public List<Shift> GetShifts(Department department)
         {
-            return shiftRepo.GetShifts(section.Id, department.Id);
+            return shiftRepo.GetShifts(department.Id);
         }
-        public void CreateShift(Section section, Shift shift)
+        public void CreateShift(Shift shift)
         {
-            shiftRepo.CreateShift(section.Id, shift);
+            shiftRepo.CreateShift(shift);
         }
         public void UpdateShift(Shift shift)
         {

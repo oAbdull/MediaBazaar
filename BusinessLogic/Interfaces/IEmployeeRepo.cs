@@ -9,13 +9,14 @@ namespace BusinessLogic.Interfaces
     public interface IEmployeeRepo
     {
         int GetLatestEmployeeId();
-        List<Employee> GetEmployees(int sectionId);
-        List<Employee> GetEmployees(int sectionId, int departmentId);
-        void CreateEmployee(int sectionId, Employee employee);
+        List<Employee> GetEmployees();
+        List<Employee> GetEmployees(int departmentId);
+        void CreateEmployee(Employee employee);
         void UpdateEmployee(Employee employee);
         void DeleteEmployee(Employee employee);
 
-        void AddShiftToEmployee(int sectionId, int departmentId, int employeeId, int shiftId);
-
+        void AddShiftToEmployee(int departmentId, int employeeId, int shiftId);
+        void AddToDepartment(int departmentId, Employee employee);
+        void RemoveFromDepartment(Employee employee);
     }
 }

@@ -19,17 +19,17 @@ namespace BusinessLogic.Services
         {
             return employeeRepo.GetLatestEmployeeId();
         }
-        public List<Employee> GetEmployees(Section section)
+        public List<Employee> GetEmployees()
         {
-            return employeeRepo.GetEmployees(section.Id);
+            return employeeRepo.GetEmployees();
         }
-        public List<Employee> GetEmployees(Section section, Department department)
+        public List<Employee> GetEmployees(Department department)
         {
-            return employeeRepo.GetEmployees(section.Id, department.Id);
+            return employeeRepo.GetEmployees(department.Id);
         }
-        public void CreateEmployee(Section section, Employee employee)
+        public void CreateEmployee(Employee employee)
         {
-            employeeRepo.CreateEmployee(section.Id, employee);
+            employeeRepo.CreateEmployee(employee);
         }
         public void UpdateEmployee(Employee employee)
         {
@@ -39,9 +39,9 @@ namespace BusinessLogic.Services
         {
             employeeRepo.DeleteEmployee(employee);
         }
-        public void AddShiftToEmployee(Section section, Department department, Employee employee, Shift shift)
+        public void AddShiftToEmployee(Department department, Employee employee, Shift shift)
         {
-            employeeRepo.AddShiftToEmployee(section.Id, department.Id, employee.EmployeeId, shift.Id);
+            employeeRepo.AddShiftToEmployee(department.Id, employee.EmployeeId, shift.Id);
         }
 
     }

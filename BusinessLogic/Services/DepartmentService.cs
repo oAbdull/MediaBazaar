@@ -23,13 +23,13 @@ namespace BusinessLogic.Services
         {
             return departmentRepo.GetDepartment(id);
         }
-        public List<Department> GetDepartments(Section section)
+        public List<Department> GetDepartments()
         {
-            return departmentRepo.GetDepartmentsBySectionId(section.Id);
+            return departmentRepo.GetDepartments();
         }
-        public void CreateDepartment(Section section, Department department)
+        public void CreateDepartment(Department department)
         {
-            departmentRepo.CreateDepartment(section.Id, department);
+            departmentRepo.CreateDepartment(department);
         }
         public void UpdateDepartment(Department department)
         {
@@ -40,29 +40,6 @@ namespace BusinessLogic.Services
             departmentRepo.DeleteDepartment(department);
         }
 
-        public void AddToDepartment(Section section, Department department, Employee employee)
-        {
-            departmentRepo.AddToDepartment(section.Id, department.Id, employee);
-        }
-        public void AddToDepartment(Section section, Department department, Product product)
-        {
-            departmentRepo.AddToDepartment(section.Id, department.Id, product);
-        }
-        public void AddToDepartment(Section section, Department department, Shift shift)
-        {
-            departmentRepo.AddToDepartment(section.Id, department.Id, shift);
-        }
-        public void RemoveFromDepartment(Employee employee)
-        {
-            departmentRepo.RemoveFromDepartment(employee);
-        }
-        public void RemoveFromDepartment(Product product)
-        {
-            departmentRepo.RemoveFromDepartment(product);
-        }
-        public void RemoveFromDepartment(Shift shift)
-        {
-            departmentRepo.RemoveFromDepartment(shift);
-        }
+        
     }
 }

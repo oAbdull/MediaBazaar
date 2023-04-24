@@ -30,6 +30,7 @@ namespace BusinessLogic
         public string Name
         {
             get { return name; }
+            set { name = value; }
         }
         public List<Employee> Employees
         {

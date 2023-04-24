@@ -19,17 +19,17 @@ namespace BusinessLogic.Services
         {
             return productRepo.GetLatestProductId();
         }
-        public List<Product> GetProducts(Section section)
+        public List<Product> GetProducts()
         {
-            return productRepo.GetProducts(section.Id);
+            return productRepo.GetProducts();
         }
-        public List<Product> GetProducts(Section section, Department department)
+        public List<Product> GetProducts(Department department)
         {
-            return productRepo.GetProducts(section.Id, department.Id);
+            return productRepo.GetProducts(department.Id);
         }
-        public void CreateProduct(Section section, Product product)
+        public void CreateProduct(Product product)
         {
-            productRepo.CreateProduct(section.Id, product);
+            productRepo.CreateProduct(product);
         }
         public void UpdateProduct(Product product)
         {
