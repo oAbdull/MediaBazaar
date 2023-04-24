@@ -9,15 +9,20 @@ namespace BusinessLogic
     public class Department
     {
         private int departmentId;
-        private string name;
+        private string Department_Name;
+        private string Department_Manager;
         private List<Employee> employees;
         private List<Product> products;
         private List<Shift> shifts;
 
+        public Department()
+        {
+        }
+
         public Department(int id, string name)
         {
             this.departmentId = id;
-            this.name = name;
+            this.Department_Name = name;
             employees = new List<Employee>();
             products = new List<Product>();
             shifts = new List<Shift>();
@@ -26,11 +31,12 @@ namespace BusinessLogic
         public int Id
         {
             get { return departmentId; }
+            set { departmentId = value; }
         }
         public string Name
         {
-            get { return name; }
-            set { name = value; }
+            get { return Department_Name; }
+            set { Department_Name = value; }
         }
         public List<Employee> Employees
         {
@@ -43,6 +49,11 @@ namespace BusinessLogic
         public List<Shift> Shifts
         {
             get { return shifts; }
+        }
+        public string DepartmentManager
+        {
+            get { return Department_Manager; }
+            set { Department_Manager = value;}
         }
     }
 }
