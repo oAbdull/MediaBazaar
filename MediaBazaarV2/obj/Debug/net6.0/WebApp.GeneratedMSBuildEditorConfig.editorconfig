@@ -9,61 +9,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebApp
 build_property.RootNamespace = WebApp
-build_property.ProjectDir = C:\Users\Metehan\source\repos\MediaBazaarNieuw\MediaBazaarV2\
+build_property.ProjectDir = C:\Users\jurri\Desktop\Gitrepo\S2CB-GroupProject\new\MediaBazaarV2\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Metehan\source\repos\MediaBazaarNieuw\MediaBazaarV2
+build_property.MSBuildProjectDirectory = C:\Users\jurri\Desktop\Gitrepo\S2CB-GroupProject\new\MediaBazaarV2
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Metehan/source/repos/MediaBazaarNieuw/MediaBazaarV2/Pages/EditProfile.cshtml]
+[C:/Users/jurri/Desktop/Gitrepo/S2CB-GroupProject/new/MediaBazaarV2/Pages/EditProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFByb2ZpbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Metehan/source/repos/MediaBazaarNieuw/MediaBazaarV2/Pages/Error.cshtml]
+[C:/Users/jurri/Desktop/Gitrepo/S2CB-GroupProject/new/MediaBazaarV2/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Metehan/source/repos/MediaBazaarNieuw/MediaBazaarV2/Pages/Index.cshtml]
+[C:/Users/jurri/Desktop/Gitrepo/S2CB-GroupProject/new/MediaBazaarV2/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Metehan/source/repos/MediaBazaarNieuw/MediaBazaarV2/Pages/Login.cshtml]
+[C:/Users/jurri/Desktop/Gitrepo/S2CB-GroupProject/new/MediaBazaarV2/Pages/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Metehan/source/repos/MediaBazaarNieuw/MediaBazaarV2/Pages/Logout.cshtml]
+[C:/Users/jurri/Desktop/Gitrepo/S2CB-GroupProject/new/MediaBazaarV2/Pages/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Metehan/source/repos/MediaBazaarNieuw/MediaBazaarV2/Pages/Privacy.cshtml]
+[C:/Users/jurri/Desktop/Gitrepo/S2CB-GroupProject/new/MediaBazaarV2/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Metehan/source/repos/MediaBazaarNieuw/MediaBazaarV2/Pages/Profile.cshtml]
+[C:/Users/jurri/Desktop/Gitrepo/S2CB-GroupProject/new/MediaBazaarV2/Pages/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Metehan/source/repos/MediaBazaarNieuw/MediaBazaarV2/Pages/Schedule.cshtml]
+[C:/Users/jurri/Desktop/Gitrepo/S2CB-GroupProject/new/MediaBazaarV2/Pages/Schedule.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2NoZWR1bGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Metehan/source/repos/MediaBazaarNieuw/MediaBazaarV2/Pages/Shared/LoginStatusPartial.cshtml]
+[C:/Users/jurri/Desktop/Gitrepo/S2CB-GroupProject/new/MediaBazaarV2/Pages/Shared/LoginStatusPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXExvZ2luU3RhdHVzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Metehan/source/repos/MediaBazaarNieuw/MediaBazaarV2/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/jurri/Desktop/Gitrepo/S2CB-GroupProject/new/MediaBazaarV2/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Metehan/source/repos/MediaBazaarNieuw/MediaBazaarV2/Pages/_ViewImports.cshtml]
+[C:/Users/jurri/Desktop/Gitrepo/S2CB-GroupProject/new/MediaBazaarV2/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Metehan/source/repos/MediaBazaarNieuw/MediaBazaarV2/Pages/_ViewStart.cshtml]
+[C:/Users/jurri/Desktop/Gitrepo/S2CB-GroupProject/new/MediaBazaarV2/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Metehan/source/repos/MediaBazaarNieuw/MediaBazaarV2/Pages/Shared/_Layout.cshtml]
+[C:/Users/jurri/Desktop/Gitrepo/S2CB-GroupProject/new/MediaBazaarV2/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-1lnhnt7yf2
