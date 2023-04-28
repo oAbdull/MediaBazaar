@@ -11,6 +11,10 @@ namespace BusinessLogic
         private string username;
         private string password; // change this to the hash in the future
 
+        public User()
+        {
+        }
+
         public User(string username, string password)
         {
             this.username = username;

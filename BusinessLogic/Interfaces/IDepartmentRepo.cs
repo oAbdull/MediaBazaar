@@ -11,8 +11,8 @@ namespace BusinessLogic.Interfaces
         int GetLatestDepartmentId(); // used for id generation
         Department GetDepartment(int id);
         List<Department> GetDepartments();
-        void CreateDepartment(Department department);
+        string CreateDepartment(Department department);
         void UpdateDepartment(Department department);
-        void DeleteDepartment(Department department);
+        string DeleteDepartment(Department department);
     }
 }
