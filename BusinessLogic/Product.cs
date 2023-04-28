@@ -14,6 +14,11 @@ namespace BusinessLogic
         private int quantity;
         private int departmentId;
 
+        public Product()
+        {
+
+        }
+
         public Product(int id, string name, int price, int quantity)
         {
             this.productId = id;
@@ -24,18 +29,22 @@ namespace BusinessLogic
         public int Id
         {
             get { return this.productId; }
+            set { this.productId = value; }
         }
         public string Name
         {
             get { return this.name; }
+            set { this.name = value; }
         }
         public int Price
         {
             get { return this.price; }
+            set { this.price = value; }
         }
         public int Quantity
         {
             get { return this.quantity; }
+            set { this.quantity = value; }
         }
         public int DepartmentId
         {

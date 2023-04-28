@@ -9,7 +9,7 @@ namespace BusinessLogic.Interfaces
     public interface IUserRepo
     {
         public User GetUserByName(string username);
-        public void CreateUser(User user);
+        public string CreateUser(User user);
         public int GetLatestUserId();
     }
 }

@@ -10,7 +10,13 @@
         private int departmentId;
         //private SecurityLevel security_level;
 
+        public Employee()
+        {
+            // no idea< Need to fix this
+        }
+
         private List<Shift> shifts;
+
 
         public Employee(int employee_id, string firstName, string lastName, string email, int phoneNumber, string username, string password) : base(username, password)
         {
@@ -24,9 +30,12 @@
             shifts = new List<Shift>();
         }
 
+        
+
         public int EmployeeId
         {
             get { return employee_id; }
+            set { employee_id = value; }
         }
         public string Name
         {
