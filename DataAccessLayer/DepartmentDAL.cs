@@ -13,7 +13,7 @@ namespace DataAccessLayer
     internal class DepartmentDAL : IDepartmentRepo
     {
         string connString = ("server=mssqlstud.fhict.local;Database=dbi505917_media;user id=dbi505917_media;password=Media123;");
-        
+
         SqlConnection conn;
         int count = 0;
 
